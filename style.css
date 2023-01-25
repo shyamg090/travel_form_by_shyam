@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 80%;
+    background-color: rgba(158, 255, 242, 0);
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 20px; 
+    /* border-top-left-radius: 50px; */
+    margin: auto; 
+    /* sets the margin same on both the sides */
+    border-color: black;
+}
+.container h1{
+    font-size: 30px;
+}
+.container h1,p,h3{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .container p{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} */
+.form1{
+    max-width: 80%;
+    background-color: rgba(100, 248, 228, 0);
+    padding: 20px;
+    border-radius: 30px; 
+    margin: auto; 
+    border-color: black;
+    
+}
+.form1 form{
+    border-radius: 20px;
+    max-width: 60%;
+    
+    padding:2px;
+    
+}
+.form1 input{
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.form1 textarea{
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    margin: auto;
+    padding: 10px;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.form1 button{
+    width:30%;
+    color: black;
+    text-size-adjust: 10px;
+    background-color: rgb(236, 60, 60);
+    text-align: center;
+    padding: 5px;
+   margin: 10px;
+    border-radius: 5px;
+    
+}
+/* body{
+    width: 100%;
+    position: absolute;
+    
+} */
+.imagebg{
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    height: 100%;
+    opacity: 70%;
+}
+.foot{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+     font-family: 'Times New Roman', Times, serif;
+     position: relative;
+}
+.msgsubmit{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+   /* animation: pop 20s  1s 10 centre 100%; */
+   animation-name: inherit;
+}
